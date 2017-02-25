@@ -1,0 +1,39 @@
+.typed-cursor {
+    animation: blink 0.7s infinite;
+}
+
+.typed-strings {
+    display: none;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.typed,
+.typed-cursor {
+    font-size: 110px;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+.typed-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #558C89;
+    color: wheat;
+}
